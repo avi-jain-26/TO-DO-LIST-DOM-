@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO APP</title>
+    <style>
+
+      body{
+            font-size: 25px;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            text-align: center;
+            background-image: url("https://i.pinimg.com/1200x/80/04/23/8004237c54f9f4044a8f5497f5954996.jpg");
+            background-size: cover;
+        }
+      .head{
+            color: rgb(204, 255, 0);
+            -webkit-text-stroke: 2px rgba(0, 0, 0, 0.776);
+            font-weight: 900;
+        }
+      .inp{
+            height: 35px;
+            width: 250px;
+            border-radius: 30px;
+            text-align: center;
+            font-size: 25px;
+        }
+
+      .btn , .rst{
+            height: 38px;
+            width: 70px;
+            border-radius: 20px ;
+            background-color: rgb(231, 142, 40);
+            color: white;
+            cursor: pointer;
+            font-weight: 700;
+        }
+
+       div .list li{
+            cursor: pointer;
+            list-style-type: none;
+            top: 50px;
+            font-weight: 580;
+        }
+
+        div{
+            background-color: rgb(166, 166, 215);
+            border-radius: 40px;
+            width: 700px;
+            margin: 0 auto;
+            height: 400px;
+            border: 2px solid black;
+             
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1 class="head"><u>TO-DO LIST</u></h1>
+    <input class="inp" type="text" placeholder="Enter Task Here..">
+    <br>
+    <button class="btn">Add</button>
+    <button class="rst">Reset</button>
+    <br><br>
+    <div>
+    <ul class="list">
+        <li>Wake up</li>
+        <li>Breakfast</li>
+    </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
